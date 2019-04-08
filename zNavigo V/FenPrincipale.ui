@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FenPrincipaleClass</class>
+ <widget class="QMainWindow" name="FenPrincipaleClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1303</width>
+    <height>785</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ActionsContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>FenPrincipale</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1303</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Fichier">
+    <property name="title">
+     <string>&amp;Fichier</string>
+    </property>
+    <addaction name="actionNouvel_onglet"/>
+    <addaction name="actionFermer_onglet"/>
+    <addaction name="action_Param_tres"/>
+    <addaction name="separator"/>
+    <addaction name="action_Fermer"/>
+   </widget>
+   <widget class="QMenu" name="menuNavigation">
+    <property name="title">
+     <string>&amp;Navigation</string>
+    </property>
+    <widget class="QMenu" name="menu_Historique">
+     <property name="title">
+      <string>&amp;Historique</string>
+     </property>
+     <addaction name="action_Effacer_historique"/>
+     <addaction name="separator"/>
+     <addaction name="action_vide"/>
+    </widget>
+    <widget class="QMenu" name="menu_Favoris">
+     <property name="title">
+      <string>&amp;Favoris</string>
+     </property>
+     <addaction name="action_Ajouter_aux_favoris"/>
+     <addaction name="action_Effacer_la_liste_des_favoris"/>
+     <addaction name="separator"/>
+     <addaction name="action_vide_2"/>
+    </widget>
+    <addaction name="actionPage_suivante"/>
+    <addaction name="actionPage_pr_c_dente"/>
+    <addaction name="actionArr_ter_le_chargement"/>
+    <addaction name="action_Actualiser"/>
+    <addaction name="actionPage_d_a_cceuil"/>
+    <addaction name="separator"/>
+    <addaction name="menu_Historique"/>
+    <addaction name="menu_Favoris"/>
+    <addaction name="separator"/>
+    <addaction name="action_Rechercher"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>&amp;?</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action_A_propos"/>
+    <addaction name="actionA_porpos_de_Qt"/>
+   </widget>
+   <addaction name="menu_Fichier"/>
+   <addaction name="menuNavigation"/>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionPage_suivante">
+   <property name="text">
+    <string>Page &amp;suivante</string>
+   </property>
+  </action>
+  <action name="actionPage_pr_c_dente">
+   <property name="text">
+    <string>Page &amp;précédente</string>
+   </property>
+  </action>
+  <action name="action_Actualiser">
+   <property name="text">
+    <string>&amp;Actualiser</string>
+   </property>
+  </action>
+  <action name="actionPage_d_a_cceuil">
+   <property name="text">
+    <string>Page d'a&amp;cceuil</string>
+   </property>
+  </action>
+  <action name="action_A_propos">
+   <property name="text">
+    <string>&amp;A propos...</string>
+   </property>
+  </action>
+  <action name="actionA_porpos_de_Qt">
+   <property name="text">
+    <string>A porpos de &amp;Qt...</string>
+   </property>
+  </action>
+  <action name="actionNouvel_onglet">
+   <property name="text">
+    <string>&amp;Nouvel onglet</string>
+   </property>
+  </action>
+  <action name="actiontest">
+   <property name="text">
+    <string>test</string>
+   </property>
+  </action>
+  <action name="action_Fermer">
+   <property name="text">
+    <string>&amp;Fermer</string>
+   </property>
+  </action>
+  <action name="actionFermer_onglet">
+   <property name="text">
+    <string>Fermer &amp;onglet</string>
+   </property>
+  </action>
+  <action name="actionArr_ter_le_chargement">
+   <property name="text">
+    <string>Arrêter le chargement</string>
+   </property>
+  </action>
+  <action name="action_vide">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>(vide)</string>
+   </property>
+  </action>
+  <action name="action_Effacer_historique">
+   <property name="text">
+    <string>&amp;Effacer historique</string>
+   </property>
+  </action>
+  <action name="action_vide_2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>(vide)</string>
+   </property>
+  </action>
+  <action name="action_Ajouter_aux_favoris">
+   <property name="text">
+    <string>&amp;Ajouter aux favoris</string>
+   </property>
+  </action>
+  <action name="action_Effacer_la_liste_des_favoris">
+   <property name="text">
+    <string>&amp;Effacer la liste des favoris</string>
+   </property>
+  </action>
+  <action name="action_Rechercher">
+   <property name="text">
+    <string>&amp;Rechercher</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="action_Param_tres">
+   <property name="text">
+    <string>&amp;Paramètres</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="FenPrincipale.qrc"/>
+ </resources>
+ <connections/>
+</ui>
