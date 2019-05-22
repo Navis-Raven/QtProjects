@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zNavigoV", "zNavigo V\zNavi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassGeneratorII", "ClassGenerator II\ClassGeneratorII.vcxproj", "{2A67F9E5-6EEA-440C-8690-1888C058A5CB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Serveur", "Serveur\Serveur.vcxproj", "{164B8E72-3A6B-4715-9C4D-F9F4675F2765}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{06C41E82-258C-4823-B3BA-E3B16B10612F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,14 @@ Global
 		{2A67F9E5-6EEA-440C-8690-1888C058A5CB}.Debug|x64.Build.0 = Debug|x64
 		{2A67F9E5-6EEA-440C-8690-1888C058A5CB}.Release|x64.ActiveCfg = Release|x64
 		{2A67F9E5-6EEA-440C-8690-1888C058A5CB}.Release|x64.Build.0 = Release|x64
+		{164B8E72-3A6B-4715-9C4D-F9F4675F2765}.Debug|x64.ActiveCfg = Debug|x64
+		{164B8E72-3A6B-4715-9C4D-F9F4675F2765}.Debug|x64.Build.0 = Debug|x64
+		{164B8E72-3A6B-4715-9C4D-F9F4675F2765}.Release|x64.ActiveCfg = Release|x64
+		{164B8E72-3A6B-4715-9C4D-F9F4675F2765}.Release|x64.Build.0 = Release|x64
+		{06C41E82-258C-4823-B3BA-E3B16B10612F}.Debug|x64.ActiveCfg = Debug|x64
+		{06C41E82-258C-4823-B3BA-E3B16B10612F}.Debug|x64.Build.0 = Debug|x64
+		{06C41E82-258C-4823-B3BA-E3B16B10612F}.Release|x64.ActiveCfg = Release|x64
+		{06C41E82-258C-4823-B3BA-E3B16B10612F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
